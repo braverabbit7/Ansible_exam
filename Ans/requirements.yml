@@ -1,0 +1,6 @@
+- src: 
+  name: docker
+- src: https://github.com/braverabbit7/Ansible_exam/tree/master/webserver
+  name: web-app
+- src: https://github.com/braverabbit7/Ansible_exam/tree/master/nginx-bal
+  name: nginx

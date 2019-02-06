@@ -1,2 +1,11 @@
 ---
 # tasks file for webserver
+- name: Install docker
+  command: apt install docker.io -y
+  become: yes 
+
+- name: log into docker hub
+  command: sudo docker login -u braverabbit/epamexam -p 11
+
+- name: run container with web-app
+  command: sudo docker run -d -p 80 braverabbit/epam-exam:web-app

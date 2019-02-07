@@ -1,1 +1,6 @@
-
+- src: https://github.com/braverabbit7/Ansible_web
+  name: web-app
+- src: https://github.com/braverabbit7/Ansible_docker
+  name: docker
+- src: https://github.com/braverabbit7/Ansible_nginx
+  name: nginx

@@ -1,1 +1,5 @@
 hosts: main_node
+roles:
+    - docker
+    - web-app
+    - nginx

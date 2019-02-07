@@ -1,2 +1,3 @@
-[web-server]
-127.0.0.1  ansible_user=Jenkins
+[main_node]
+127.0.0.1 [test]
+localhost ansible_connection=local ansible_user=Jenkins
